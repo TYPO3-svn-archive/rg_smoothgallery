@@ -1,0 +1,125 @@
+/* SLIGHTBOX */
+/* variation on SLIMBOX */
+
+#lbOverlay {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	cursor: pointer;
+	z-index: 15;
+}
+
+#lbCenter, #lbBottom {
+	position: absolute;
+	left: 50%;
+	overflow: hidden;
+	background-color: #012138;
+	z-index: 20;
+	border: 1px solid #006699;
+}
+
+#lbCenter {
+	padding: 10px;
+}
+
+.lbLoading {
+	background: #012138 url('img/loading-bar-black2.gif') no-repeat center;
+	border: 1px solid #666;
+}
+
+#lbImage {
+	z-index: 25;
+}
+
+
+#lbPrevLink, #lbNextLink {
+	position: absolute;
+	cursor: pointer;
+	background: tranparent;
+	z-index:12;
+
+
+}
+
+
+
+#lbPrevLink
+{
+	Xborder:1px solid red;
+	bottom:10px;
+right:40px;
+	margin: 5px;
+	height: 13px;
+	width: 13px;
+	background: url('img/left.gif') no-repeat bottom left;
+
+}
+
+
+
+#lbNextLink {
+	right: 20px;
+	bottom:10px;
+	margin: 5px;
+	height: 13px;
+	width: 13px;
+	background: url('img/right.gif') no-repeat bottom right;
+Xborder:1px solid blue;
+}
+
+
+#lbBottom {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 1.4em;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top-style: none;
+}
+
+#lbCloseLink {
+	display: block;
+	float: right;
+	width: 13px;
+	height: 13px;
+	background: transparent url('img/close.gif') no-repeat center;
+	margin-top: 5px;
+}
+
+#lbNumber {
+	display: block;
+	float: left;color:#999;
+}
+
+#lbNumber.gallery {
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+#lbCaption {
+	margin-left: 10px;
+	display: block;
+	float: left;
+
+}
+
+#lbDescription {
+	float: left;
+	padding-right: 10px;
+}
+
+#lbDescription #lbTitle {
+	float: left;
+	clear: both;
+	font-weight: bold;
+color:#999;
+}
+
+#lbDescription #lbCaption {
+	margin-left: 0;
+color:#999;
+}
+
